@@ -1,6 +1,6 @@
 // Iterar sobre um objeto
 // Crie um objeto chamado livro com as propriedades titulo, autor e anoPublicacao. Use um loop for...in para exibir todas as propriedades e seus valores.
-let livro = {
+const livro = {
     titulo: 'Joaninha',
     autor: 'Joana',
     anoPublicacao: 2020

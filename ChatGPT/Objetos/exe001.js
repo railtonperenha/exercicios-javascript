@@ -1,6 +1,6 @@
 // Criar um objeto simples
 // Crie um objeto chamado pessoa que contenha as propriedades: nome, idade e cidade. Em seguida, acesse o valor de nome e cidade.
-let pessoa = {
+const pessoa = {
     nome: 'Railton',
     idade: 34,
     cidade: 'Campinas'

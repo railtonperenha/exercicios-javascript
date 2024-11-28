@@ -1,6 +1,6 @@
 // Aninhar objetos
 // Crie um objeto chamado endereco com as propriedades rua, numero e cidade. Adicione este objeto como uma propriedade de um objeto pessoa.
-let pessoa = {
+const pessoa = {
     nome: 'Railton',
     idade: 34,
     endereco: {

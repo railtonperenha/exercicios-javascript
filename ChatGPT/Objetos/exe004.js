@@ -1,6 +1,6 @@
 // Verificar propriedade no objeto
 // Crie um objeto chamado usuario com as propriedades nome e email. Verifique se a propriedade senha existe no objeto.
-let usuario = {
+const usuario = {
     nome: 'railton',
     email: 'railton@email.com'
 };
