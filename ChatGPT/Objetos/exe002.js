@@ -5,5 +5,6 @@ const carro = {
     modelo: 'Kicks'
 };
 
+// Adicionando a propriedade 'ano' dinamicamente
 carro.ano = 2018;
 console.log(carro);

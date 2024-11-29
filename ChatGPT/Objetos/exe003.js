@@ -5,5 +5,6 @@ const produto = {
     preco: 1300
 }
 
+// Alterando o valor da propriedade 'preco'
 produto.preco = 1199;
 console.log(produto);

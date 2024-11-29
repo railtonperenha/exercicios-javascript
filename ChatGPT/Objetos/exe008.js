@@ -7,5 +7,6 @@ const animal = {
     idade: 15
 };
 
+// Deleta a propriedade 'idade'
 delete(animal.idade);
 console.log(animal);

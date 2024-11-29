@@ -11,5 +11,6 @@ const pessoa2 = {
     idade: 29
 };
 
+// Comparação das propriedades 'nome' e 'idade'
 const saoIguai = pessoa1.nome === pessoa2.nome && pessoa1.idade === pessoa2.idade;
-console.log(saoIguai ? 'Os objetos tem os mesmos valores!' : 'Os objetos tem valores diferentes');
+console.log(saoIguai ? 'Os objetos têm os mesmos valores!' : 'Os objetos têm valores diferentes');

@@ -11,5 +11,17 @@ const pessoa = {
 };
 
 for (let consult in pessoa) {
-    console.log(pessoa[consult]);
+    // Verifica se a propriedade é um objeto: CORRIGIDO
+    if (typeof pessoa[consult] === 'object') {
+        console.log(`${consult}:`);
+        for (let subProp in pessoa[consult]) {
+            console.log(`  ${subProp}: ${pessoa[consult][subProp]}`);
+        }
+    } else {
+        console.log(`${consult}: ${pessoa[consult]}`);
+    }
 };
+
+// O código verifica com typeof pessoa[consult] === 'object' se a propriedade atual é um objeto.
+// Se for, usa outro laço for...in para iterar pelas propriedades internas do objeto endereco.
+// Caso contrário, imprime diretamente o valor da propriedade.

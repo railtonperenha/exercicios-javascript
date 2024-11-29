@@ -17,3 +17,7 @@ console.log(valores);
 // Pares chave-valor
 const pares = Object.entries(frutas);
 console.log(pares);
+
+// Object.keys(frutas) retorna um array contendo todas as chaves do objeto frutas.
+// Object.values(frutas) retorna um array contendo todos os valores correspondentes às chaves do objeto frutas.
+// Object.entries(frutas) retorna um array de arrays, onde cada sub-array contém um par chave-valor.
